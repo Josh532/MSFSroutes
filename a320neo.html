@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A320neo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #353535;
+    }
+
+    .dropdown {
+      position: relative;
+      margin-right: 20px;
+      padding: 10px;
+    }
+
+    .dropdown button {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border-radius: 5px;
+      overflow-y: auto;
+      max-height: 300px;
+    }
+
+    .dropdown-content ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .dropdown-content ul li {
+      padding: 8px 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .dropdown-content ul li:hover {
+      background-color: #ddd;
+    }
+
+    h1{
+        color: white;
+    }
+  </style>
+</head>
+<body>
+     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <h1>Africa</h1>
+    <div class="dropdown">
+        <button>Air Côte d'Ivoire - A320neo</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Abidjan (ABJ) ➔ Dakar (DSS)</li>
+            <li>Abidjan (ABJ) ➔ Lagos (LOS)</li>
+            <li>Abidjan (ABJ) ➔ Accra (ACC)</li>
+            <li>Abidjan (ABJ) ➔ Cotonou (COO)</li>
+            <li>Abidjan (ABJ) ➔ Bamako (BKO)</li>
+            <li>Abidjan (ABJ) ➔ Ouagadougou (OUA)</li>
+            <li>Abidjan (ABJ) ➔ Libreville (LBV)</li>
+            <li>Abidjan (ABJ) ➔ Kinshasa (FIH)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button>Air Senegal - A320neo</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Dakar (DSS) ➔ Paris (CDG)</li>
+            <li>Dakar (DSS) ➔ Abidjan (ABJ)</li>
+            <li>Dakar (DSS) ➔ Banjul (BJL)</li>
+            <li>Dakar (DSS) ➔ Bamako (BKO)</li>
+            <li>Dakar (DSS) ➔ Conakry (CKY)</li>
+            <li>Dakar (DSS) ➔ Praia (RAI)</li>
+            <li>Dakar (DSS) ➔ Cotonou (COO)</li>
+            <li>Dakar (DSS) ➔ Casablanca (CMN)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button>EgyptAir Express (EgyptAir) - A320neo</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Cairo (CAI) ➔ Jeddah (JED)</li>
+            <li>Cairo (CAI) ➔ Riyadh (RUH)</li>
+            <li>Cairo (CAI) ➔ Amman (AMM)</li>
+            <li>Cairo (CAI) ➔ Beirut (BEY)</li>
+            <li>Cairo (CAI) ➔ Abu Dhabi (AUH)</li>
+            <li>Cairo (CAI) ➔ Dubai (DXB)</li>
+            <li>Cairo (CAI) ➔ Athens (ATH)</li>
+            <li>Cairo (CAI) ➔ Rome (FCO)</li>
+            <li>Cairo (CAI) ➔ Milan (MXP)</li>
+            <li>Cairo (CAI) ➔ Casablanca (CMN)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button>Flynas - A320neo</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Jeddah (JED) ➔ Cairo (CAI)</li>
+            <li>Riyadh (RUH) ➔ Cairo (CAI)</li>
+            <li>Jeddah (JED) ➔ Khartoum (KRT)</li>
+            <li>Riyadh (RUH) ➔ Khartoum (KRT)</li>
+            <li>Riyadh (RUH) ➔ Addis Ababa (ADD)</li>
+            <li>Jeddah (JED) ➔ Addis Ababa (ADD)</li>
+            <li>Riyadh (RUH) ➔ Asmara (ASM)</li>
+            <li>Jeddah (JED) ➔ Asmara (ASM)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button>Green Africa Airways - A320neo</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Lagos (LOS) ➔ Abuja (ABV)</li>
+            <li>Lagos (LOS) ➔ Port Harcourt (PHC)</li>
+            <li>Lagos (LOS) ➔ Enugu (ENU)</li>
+            <li>Lagos (LOS) ➔ Owerri (QOW)</li>
+            <li>Lagos (LOS) ➔ Akure (AKR)</li>
+            <li>Lagos (LOS) ➔ Ilorin (ILR)</li>
+            <li>Lagos (LOS) ➔ Kano (KAN)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button>Royal Air Maroc - A320neo</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Casablanca (CMN) ➔ Paris (ORY)</li>
+            <li>Casablanca (CMN) ➔ Madrid (MAD)</li>
+            <li>Casablanca (CMN) ➔ Lisbon (LIS)</li>
+            <li>Casablanca (CMN) ➔ Barcelona (BCN)</li>
+            <li>Casablanca (CMN) ➔ Milan (MXP)</li>
+            <li>Casablanca (CMN) ➔ Rome (FCO)</li>
+            <li>Casablanca (CMN) ➔ Tunis (TUN)</li>
+            <li>Casablanca (CMN) ➔ Dakar (DSS)</li>
+            <li>Casablanca (CMN) ➔ Bamako (BKO)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <button>Tunisair - A320neo</button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Tunis (TUN) ➔ Paris (CDG)</li>
+            <li>Tunis (TUN) ➔ Marseille (MRS)</li>
+            <li>Tunis (TUN) ➔ Lyon (LYS)</li>
+            <li>Tunis (TUN) ➔ Nice (NCE)</li>
+            <li>Tunis (TUN) ➔ Rome (FCO)</li>
+            <li>Tunis (TUN) ➔ Milan (MXP)</li>
+            <li>Tunis (TUN) ➔ Frankfurt (FRA)</li>
+            <li>Tunis (TUN) ➔ Geneva (GVA)</li>
+            <li>Tunis (TUN) ➔ Brussels (BRU)</li>
+            <li>Tunis (TUN) ➔ Barcelona (BCN)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <h1>Asia</h1>
+<!-- All Nippon Airways (ANA) - A320 Routes -->
+<div class="dropdown">
+    <button>All Nippon Airways (ANA) - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Tokyo Narita (NRT) ➔ Osaka (KIX)</li>
+        <li>Tokyo Narita (NRT) ➔ Sapporo (CTS)</li>
+        <li>Tokyo Narita (NRT) ➔ Fukuoka (FUK)</li>
+        <li>Osaka (KIX) ➔ Tokyo Narita (NRT)</li>
+        <li>Osaka (KIX) ➔ Sapporo (CTS)</li>
+        <li>Fukuoka (FUK) ➔ Tokyo Narita (NRT)</li>
+        <li>Fukuoka (FUK) ➔ Osaka (KIX)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- China Eastern Airlines - A320 Routes -->
+  <div class="dropdown">
+    <button>China Eastern Airlines - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Shanghai (PVG) ➔ Beijing (PEK)</li>
+        <li>Shanghai (PVG) ➔ Chengdu (CTU)</li>
+        <li>Shanghai (PVG) ➔ Guangzhou (CAN)</li>
+        <li>Beijing (PEK) ➔ Shanghai (PVG)</li>
+        <li>Beijing (PEK) ➔ Guangzhou (CAN)</li>
+        <li>Guangzhou (CAN) ➔ Shanghai (PVG)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- China Southern Airlines - A320 Routes -->
+  <div class="dropdown">
+    <button>China Southern Airlines - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Guangzhou (CAN) ➔ Beijing (PEK)</li>
+        <li>Guangzhou (CAN) ➔ Shanghai (PVG)</li>
+        <li>Guangzhou (CAN) ➔ Chengdu (CTU)</li>
+        <li>Beijing (PEK) ➔ Guangzhou (CAN)</li>
+        <li>Shanghai (PVG) ➔ Guangzhou (CAN)</li>
+        <li>Chengdu (CTU) ➔ Guangzhou (CAN)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Garuda Indonesia - A320 Routes -->
+  <div class="dropdown">
+    <button>Garuda Indonesia - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Jakarta (CGK) ➔ Bali (DPS)</li>
+        <li>Jakarta (CGK) ➔ Surabaya (SUB)</li>
+        <li>Bali (DPS) ➔ Jakarta (CGK)</li>
+        <li>Surabaya (SUB) ➔ Jakarta (CGK)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Japan Airlines (JAL) - A320 Routes -->
+  <div class="dropdown">
+    <button>Japan Airlines (JAL) - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Tokyo Narita (NRT) ➔ Osaka (KIX)</li>
+        <li>Tokyo Narita (NRT) ➔ Fukuoka (FUK)</li>
+        <li>Osaka (KIX) ➔ Tokyo Narita (NRT)</li>
+        <li>Osaka (KIX) ➔ Fukuoka (FUK)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Korean Air - A320 Routes -->
+  <div class="dropdown">
+    <button>Korean Air - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Seoul Incheon (ICN) ➔ Busan (PUS)</li>
+        <li>Seoul Incheon (ICN) ➔ Jeju (CJU)</li>
+        <li>Busan (PUS) ➔ Seoul Incheon (ICN)</li>
+        <li>Jeju (CJU) ➔ Seoul Incheon (ICN)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Malaysia Airlines - A320 Routes -->
+  <div class="dropdown">
+    <button>Malaysia Airlines - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Kuala Lumpur (KUL) ➔ Penang (PEN)</li>
+        <li>Kuala Lumpur (KUL) ➔ Langkawi (LGK)</li>
+        <li>Penang (PEN) ➔ Kuala Lumpur (KUL)</li>
+        <li>Langkawi (LGK) ➔ Kuala Lumpur (KUL)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Qatar Airways - A320 Routes -->
+  <div class="dropdown">
+    <button>Qatar Airways - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Doha (DOH) ➔ Bahrain (BAH)</li>
+        <li>Doha (DOH) ➔ Dubai (DXB)</li>
+        <li>Doha (DOH) ➔ Abu Dhabi (AUH)</li>
+        <li>Dubai (DXB) ➔ Doha (DOH)</li>
+        <li>Abu Dhabi (AUH) ➔ Doha (DOH)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Singapore Airlines - A320 Routes -->
+  <div class="dropdown">
+    <button>Singapore Airlines - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Singapore (SIN) ➔ Kuala Lumpur (KUL)</li>
+        <li>Singapore (SIN) ➔ Jakarta (CGK)</li>
+        <li>Kuala Lumpur (KUL) ➔ Singapore (SIN)</li>
+        <li>Jakarta (CGK) ➔ Singapore (SIN)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Thai Airways International - A320 Routes -->
+  <div class="dropdown">
+    <button>Thai Airways International - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Bangkok (BKK) ➔ Chiang Mai (CNX)</li>
+        <li>Bangkok (BKK) ➔ Phuket (HKT)</li>
+        <li>Chiang Mai (CNX) ➔ Bangkok (BKK)</li>
+        <li>Phuket (HKT) ➔ Bangkok (BKK)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Vietnam Airlines - A320 Routes -->
+  <div class="dropdown">
+    <button>Vietnam Airlines - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Hanoi (HAN) ➔ Ho Chi Minh City (SGN)</li>
+        <li>Hanoi (HAN) ➔ Da Nang (DAD)</li>
+        <li>Ho Chi Minh City (SGN) ➔ Hanoi (HAN)</li>
+        <li>Ho Chi Minh City (SGN) ➔ Da Nang (DAD)</li>
+      </ul>
+    </div>
+  </div>
+  
+<!-- AirAsia - A320 Routes -->
+<div class="dropdown">
+    <button>AirAsia - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Kuala Lumpur (KUL) ➔ Penang (PEN)</li>
+        <li>Kuala Lumpur (KUL) ➔ Langkawi (LGK)</li>
+        <li>Kuala Lumpur (KUL) ➔ Phuket (HKT)</li>
+        <li>Kuala Lumpur (KUL) ➔ Jakarta (CGK)</li>
+        <li>Penang (PEN) ➔ Kuala Lumpur (KUL)</li>
+        <li>Langkawi (LGK) ➔ Kuala Lumpur (KUL)</li>
+        <li>Phuket (HKT) ➔ Kuala Lumpur (KUL)</li>
+        <li>Jakarta (CGK) ➔ Kuala Lumpur (KUL)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Air India Express - A320 Routes -->
+  <div class="dropdown">
+    <button>Air India Express - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Dubai (DXB) ➔ Kochi (COK)</li>
+        <li>Dubai (DXB) ➔ Thiruvananthapuram (TRV)</li>
+        <li>Dubai (DXB) ➔ Kozhikode (CCJ)</li>
+        <li>Kochi (COK) ➔ Dubai (DXB)</li>
+        <li>Thiruvananthapuram (TRV) ➔ Dubai (DXB)</li>
+        <li>Kozhikode (CCJ) ➔ Dubai (DXB)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Cebu Pacific - A320 Routes -->
+  <div class="dropdown">
+    <button>Cebu Pacific - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Manila (MNL) ➔ Cebu (CEB)</li>
+        <li>Manila (MNL) ➔ Davao (DVO)</li>
+        <li>Cebu (CEB) ➔ Manila (MNL)</li>
+        <li>Davao (DVO) ➔ Manila (MNL)</li>
+        <li>Manila (MNL) ➔ Hong Kong (HKG)</li>
+        <li>Manila (MNL) ➔ Singapore (SIN)</li>
+        <li>Cebu (CEB) ➔ Hong Kong (HKG)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- IndiGo - A320 Routes -->
+  <div class="dropdown">
+    <button>IndiGo - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Delhi (DEL) ➔ Mumbai (BOM)</li>
+        <li>Delhi (DEL) ➔ Bangalore (BLR)</li>
+        <li>Delhi (DEL) ➔ Chennai (MAA)</li>
+        <li>Mumbai (BOM) ➔ Delhi (DEL)</li>
+        <li>Bangalore (BLR) ➔ Delhi (DEL)</li>
+        <li>Chennai (MAA) ➔ Delhi (DEL)</li>
+        <li>Delhi (DEL) ➔ Kolkata (CCU)</li>
+        <li>Bangalore (BLR) ➔ Mumbai (BOM)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Jetstar Asia Airways - A320 Routes -->
+  <div class="dropdown">
+    <button>Jetstar Asia Airways - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Singapore (SIN) ➔ Bangkok (BKK)</li>
+        <li>Singapore (SIN) ➔ Kuala Lumpur (KUL)</li>
+        <li>Singapore (SIN) ➔ Jakarta (CGK)</li>
+        <li>Bangkok (BKK) ➔ Singapore (SIN)</li>
+        <li>Kuala Lumpur (KUL) ➔ Singapore (SIN)</li>
+        <li>Jakarta (CGK) ➔ Singapore (SIN)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Peach Aviation - A320 Routes -->
+  <div class="dropdown">
+    <button>Peach Aviation - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Osaka (KIX) ➔ Tokyo Narita (NRT)</li>
+        <li>Osaka (KIX) ➔ Sapporo (CTS)</li>
+        <li>Osaka (KIX) ➔ Fukuoka (FUK)</li>
+        <li>Tokyo Narita (NRT) ➔ Osaka (KIX)</li>
+        <li>Sapporo (CTS) ➔ Osaka (KIX)</li>
+        <li>Fukuoka (FUK) ➔ Osaka (KIX)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Scoot - A320 Routes -->
+  <div class="dropdown">
+    <button>Scoot - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Singapore (SIN) ➔ Kuala Lumpur (KUL)</li>
+        <li>Singapore (SIN) ➔ Bangkok (BKK)</li>
+        <li>Singapore (SIN) ➔ Hong Kong (HKG)</li>
+        <li>Singapore (SIN) ➔ Taipei (TPE)</li>
+        <li>Kuala Lumpur (KUL) ➔ Singapore (SIN)</li>
+        <li>Bangkok (BKK) ➔ Singapore (SIN)</li>
+        <li>Hong Kong (HKG) ➔ Singapore (SIN)</li>
+        <li>Taipei (TPE) ➔ Singapore (SIN)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Spring Airlines - A320 Routes -->
+  <div class="dropdown">
+    <button>Spring Airlines - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Shanghai (SHA) ➔ Beijing (PEK)</li>
+        <li>Shanghai (SHA) ➔ Guangzhou (CAN)</li>
+        <li>Shanghai (SHA) ➔ Shenzhen (SZX)</li>
+        <li>Beijing (PEK) ➔ Shanghai (SHA)</li>
+        <li>Guangzhou (CAN) ➔ Shanghai (SHA)</li>
+        <li>Shenzhen (SZX) ➔ Shanghai (SHA)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- VietJet Air - A320 Routes -->
+  <div class="dropdown">
+    <button>VietJet Air - A320</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Hanoi (HAN) ➔ Ho Chi Minh City (SGN)</li>
+        <li>Hanoi (HAN) ➔ Da Nang (DAD)</li>
+        <li>Ho Chi Minh City (SGN) ➔ Hanoi (HAN)</li>
+        <li>Ho Chi Minh City (SGN) ➔ Da Nang (DAD)</li>
+        <li>Hanoi (HAN) ➔ Hai Phong (HPH)</li>
+        <li>Ho Chi Minh City (SGN) ➔ Hai Phong (HPH)</li>
+      </ul>
+    </div>
+  </div>
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <h1>Europe</h1>
+    <!-- Aegean Airlines - A320neo Routes -->
+<div class="dropdown">
+    <button>Aegean Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Athens (ATH) ➔ London (LHR)</li>
+        <li>Athens (ATH) ➔ Paris (CDG)</li>
+        <li>Athens (ATH) ➔ Rome (FCO)</li>
+        <li>Athens (ATH) ➔ Madrid (MAD)</li>
+        <li>Athens (ATH) ➔ Barcelona (BCN)</li>
+        <li>Athens (ATH) ➔ Berlin (BER)</li>
+        <li>Athens (ATH) ➔ Munich (MUC)</li>
+        <li>Athens (ATH) ➔ Vienna (VIE)</li>
+        <li>Athens (ATH) ➔ Zurich (ZRH)</li>
+        <li>Athens (ATH) ➔ Brussels (BRU)</li>
+        <li>Thessaloniki (SKG) ➔ Munich (MUC)</li>
+        <li>Thessaloniki (SKG) ➔ Frankfurt (FRA)</li>
+        <li>Heraklion (HER) ➔ Paris (CDG)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Aer Lingus - A320neo Routes -->
+  <div class="dropdown">
+    <button>Aer Lingus - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Dublin (DUB) ➔ London (LHR)</li>
+        <li>Dublin (DUB) ➔ Paris (CDG)</li>
+        <li>Dublin (DUB) ➔ Amsterdam (AMS)</li>
+        <li>Dublin (DUB) ➔ Manchester (MAN)</li>
+        <li>Dublin (DUB) ➔ Edinburgh (EDI)</li>
+        <li>Dublin (DUB) ➔ Brussels (BRU)</li>
+        <li>Dublin (DUB) ➔ Frankfurt (FRA)</li>
+        <li>Dublin (DUB) ➔ Zurich (ZRH)</li>
+        <li>Dublin (DUB) ➔ Birmingham (BHX)</li>
+        <li>Dublin (DUB) ➔ Glasgow (GLA)</li>
+        <li>Cork (ORK) ➔ London (LHR)</li>
+        <li>Shannon (SNN) ➔ London (LHR)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- airBaltic - A320neo Routes -->
+  <div class="dropdown">
+    <button>airBaltic - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Riga (RIX) ➔ Amsterdam (AMS)</li>
+        <li>Riga (RIX) ➔ Paris (CDG)</li>
+        <li>Riga (RIX) ➔ London (LGW)</li>
+        <li>Riga (RIX) ➔ Munich (MUC)</li>
+        <li>Riga (RIX) ➔ Zurich (ZRH)</li>
+        <li>Riga (RIX) ➔ Vienna (VIE)</li>
+        <li>Riga (RIX) ➔ Berlin (BER)</li>
+        <li>Riga (RIX) ➔ Brussels (BRU)</li>
+        <li>Riga (RIX) ➔ Oslo (OSL)</li>
+        <li>Riga (RIX) ➔ Copenhagen (CPH)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Air France - A320neo Routes -->
+  <div class="dropdown">
+    <button>Air France - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Paris (CDG) ➔ London (LHR)</li>
+        <li>Paris (CDG) ➔ Amsterdam (AMS)</li>
+        <li>Paris (CDG) ➔ Barcelona (BCN)</li>
+        <li>Paris (CDG) ➔ Rome (FCO)</li>
+        <li>Paris (CDG) ➔ Madrid (MAD)</li>
+        <li>Paris (CDG) ➔ Frankfurt (FRA)</li>
+        <li>Paris (CDG) ➔ Milan (MXP)</li>
+        <li>Paris (CDG) ➔ Geneva (GVA)</li>
+        <li>Paris (CDG) ➔ Zurich (ZRH)</li>
+        <li>Paris (CDG) ➔ Brussels (BRU)</li>
+        <li>Paris (CDG) ➔ Berlin (BER)</li>
+        <li>Paris (CDG) ➔ Lisbon (LIS)</li>
+        <li>Paris (CDG) ➔ Nice (NCE)</li>
+        <li>Paris (CDG) ➔ Toulouse (TLS)</li>
+        <li>Paris (CDG) ➔ Marseille (MRS)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Austrian Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>Austrian Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Vienna (VIE) ➔ London (LHR)</li>
+        <li>Vienna (VIE) ➔ Paris (CDG)</li>
+        <li>Vienna (VIE) ➔ Amsterdam (AMS)</li>
+        <li>Vienna (VIE) ➔ Brussels (BRU)</li>
+        <li>Vienna (VIE) ➔ Frankfurt (FRA)</li>
+        <li>Vienna (VIE) ➔ Zurich (ZRH)</li>
+        <li>Vienna (VIE) ➔ Berlin (BER)</li>
+        <li>Vienna (VIE) ➔ Geneva (GVA)</li>
+        <li>Vienna (VIE) ➔ Munich (MUC)</li>
+        <li>Vienna (VIE) ➔ Warsaw (WAW)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- British Airways - A320neo Routes -->
+<div class="dropdown">
+    <button>British Airways - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>London Heathrow (LHR) ➔ Paris (CDG)</li>
+        <li>London Heathrow (LHR) ➔ Amsterdam (AMS)</li>
+        <li>London Heathrow (LHR) ➔ Rome (FCO)</li>
+        <li>London Heathrow (LHR) ➔ Madrid (MAD)</li>
+        <li>London Heathrow (LHR) ➔ Zurich (ZRH)</li>
+        <li>London Heathrow (LHR) ➔ Berlin (BER)</li>
+        <li>London Heathrow (LHR) ➔ Barcelona (BCN)</li>
+        <li>London Heathrow (LHR) ➔ Geneva (GVA)</li>
+        <li>London Heathrow (LHR) ➔ Frankfurt (FRA)</li>
+        <li>London Heathrow (LHR) ➔ Munich (MUC)</li>
+        <li>London Gatwick (LGW) ➔ Malaga (AGP)</li>
+        <li>London Gatwick (LGW) ➔ Faro (FAO)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Brussels Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>Brussels Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Brussels (BRU) ➔ London Heathrow (LHR)</li>
+        <li>Brussels (BRU) ➔ Geneva (GVA)</li>
+        <li>Brussels (BRU) ➔ Berlin (BER)</li>
+        <li>Brussels (BRU) ➔ Madrid (MAD)</li>
+        <li>Brussels (BRU) ➔ Rome (FCO)</li>
+        <li>Brussels (BRU) ➔ Barcelona (BCN)</li>
+        <li>Brussels (BRU) ➔ Copenhagen (CPH)</li>
+        <li>Brussels (BRU) ➔ Stockholm (ARN)</li>
+        <li>Brussels (BRU) ➔ Lisbon (LIS)</li>
+        <li>Brussels (BRU) ➔ Vienna (VIE)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- easyJet - A320neo Routes -->
+  <div class="dropdown">
+    <button>easyJet - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>London Gatwick (LGW) ➔ Amsterdam (AMS)</li>
+        <li>London Gatwick (LGW) ➔ Geneva (GVA)</li>
+        <li>London Gatwick (LGW) ➔ Nice (NCE)</li>
+        <li>London Gatwick (LGW) ➔ Barcelona (BCN)</li>
+        <li>London Luton (LTN) ➔ Berlin (BER)</li>
+        <li>London Luton (LTN) ➔ Milan Malpensa (MXP)</li>
+        <li>Manchester (MAN) ➔ Paris (CDG)</li>
+        <li>Manchester (MAN) ➔ Amsterdam (AMS)</li>
+        <li>Bristol (BRS) ➔ Venice (VCE)</li>
+        <li>Edinburgh (EDI) ➔ Geneva (GVA)</li>
+        <li>Geneva (GVA) ➔ Lisbon (LIS)</li>
+        <li>Berlin (BER) ➔ Rome (FCO)</li>
+        <li>Berlin (BER) ➔ Barcelona (BCN)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Eurowings - A320neo Routes -->
+  <div class="dropdown">
+    <button>Eurowings - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Cologne (CGN) ➔ London Heathrow (LHR)</li>
+        <li>Cologne (CGN) ➔ Berlin (BER)</li>
+        <li>Cologne (CGN) ➔ Vienna (VIE)</li>
+        <li>Dusseldorf (DUS) ➔ Barcelona (BCN)</li>
+        <li>Dusseldorf (DUS) ➔ Rome (FCO)</li>
+        <li>Hamburg (HAM) ➔ Paris (CDG)</li>
+        <li>Hamburg (HAM) ➔ Munich (MUC)</li>
+        <li>Stuttgart (STR) ➔ Lisbon (LIS)</li>
+        <li>Stuttgart (STR) ➔ Madrid (MAD)</li>
+        <li>Stuttgart (STR) ➔ Vienna (VIE)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Finnair - A320neo Routes -->
+  <div class="dropdown">
+    <button>Finnair - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Helsinki (HEL) ➔ London Heathrow (LHR)</li>
+        <li>Helsinki (HEL) ➔ Paris (CDG)</li>
+        <li>Helsinki (HEL) ➔ Amsterdam (AMS)</li>
+        <li>Helsinki (HEL) ➔ Berlin (BER)</li>
+        <li>Helsinki (HEL) ➔ Brussels (BRU)</li>
+        <li>Helsinki (HEL) ➔ Munich (MUC)</li>
+        <li>Helsinki (HEL) ➔ Frankfurt (FRA)</li>
+        <li>Helsinki (HEL) ➔ Vienna (VIE)</li>
+        <li>Helsinki (HEL) ➔ Zurich (ZRH)</li>
+        <li>Helsinki (HEL) ➔ Copenhagen (CPH)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Iberia - A320neo Routes -->
+  <div class="dropdown">
+    <button>Iberia - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Madrid (MAD) ➔ London Heathrow (LHR)</li>
+        <li>Madrid (MAD) ➔ Paris (CDG)</li>
+        <li>Madrid (MAD) ➔ Rome (FCO)</li>
+        <li>Madrid (MAD) ➔ Milan Malpensa (MXP)</li>
+        <li>Madrid (MAD) ➔ Frankfurt (FRA)</li>
+        <li>Madrid (MAD) ➔ Brussels (BRU)</li>
+        <li>Madrid (MAD) ➔ Zurich (ZRH)</li>
+        <li>Madrid (MAD) ➔ Geneva (GVA)</li>
+        <li>Madrid (MAD) ➔ Amsterdam (AMS)</li>
+        <li>Madrid (MAD) ➔ Lisbon (LIS)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- ITA Airways - A320neo Routes -->
+  <div class="dropdown">
+    <button>ITA Airways - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Rome (FCO) ➔ Paris (CDG)</li>
+        <li>Rome (FCO) ➔ London Heathrow (LHR)</li>
+        <li>Rome (FCO) ➔ Amsterdam (AMS)</li>
+        <li>Rome (FCO) ➔ Madrid (MAD)</li>
+        <li>Rome (FCO) ➔ Frankfurt (FRA)</li>
+        <li>Rome (FCO) ➔ Munich (MUC)</li>
+        <li>Rome (FCO) ➔ Zurich (ZRH)</li>
+        <li>Rome (FCO) ➔ Brussels (BRU)</li>
+        <li>Rome (FCO) ➔ Berlin (BER)</li>
+        <li>Rome (FCO) ➔ Geneva (GVA)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Jet2.com - A320neo Routes -->
+<div class="dropdown">
+    <button>Jet2.com - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Manchester (MAN) ➔ Alicante (ALC)</li>
+        <li>Manchester (MAN) ➔ Palma de Mallorca (PMI)</li>
+        <li>Manchester (MAN) ➔ Faro (FAO)</li>
+        <li>Leeds Bradford (LBA) ➔ Tenerife (TFS)</li>
+        <li>Leeds Bradford (LBA) ➔ Alicante (ALC)</li>
+        <li>Glasgow (GLA) ➔ Lanzarote (ACE)</li>
+        <li>Newcastle (NCL) ➔ Faro (FAO)</li>
+        <li>East Midlands (EMA) ➔ Malaga (AGP)</li>
+        <li>Birmingham (BHX) ➔ Palma de Mallorca (PMI)</li>
+        <li>London Stansted (STN) ➔ Malaga (AGP)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Lufthansa - A320neo Routes -->
+  <div class="dropdown">
+    <button>Lufthansa - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Frankfurt (FRA) ➔ London Heathrow (LHR)</li>
+        <li>Frankfurt (FRA) ➔ Paris (CDG)</li>
+        <li>Frankfurt (FRA) ➔ Madrid (MAD)</li>
+        <li>Frankfurt (FRA) ➔ Rome (FCO)</li>
+        <li>Frankfurt (FRA) ➔ Milan (MXP)</li>
+        <li>Frankfurt (FRA) ➔ Barcelona (BCN)</li>
+        <li>Munich (MUC) ➔ London Heathrow (LHR)</li>
+        <li>Munich (MUC) ➔ Paris (CDG)</li>
+        <li>Munich (MUC) ➔ Zurich (ZRH)</li>
+        <li>Munich (MUC) ➔ Vienna (VIE)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Pegasus Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>Pegasus Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ London Stansted (STN)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Amsterdam (AMS)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Berlin (BER)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Vienna (VIE)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Paris Orly (ORY)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Rome (FCO)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Frankfurt (FRA)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Zurich (ZRH)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Brussels (BRU)</li>
+        <li>Istanbul Sabiha Gökçen (SAW) ➔ Copenhagen (CPH)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- SAS Scandinavian Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>SAS Scandinavian Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Stockholm (ARN) ➔ London Heathrow (LHR)</li>
+        <li>Stockholm (ARN) ➔ Paris (CDG)</li>
+        <li>Stockholm (ARN) ➔ Amsterdam (AMS)</li>
+        <li>Stockholm (ARN) ➔ Berlin (BER)</li>
+        <li>Oslo (OSL) ➔ Copenhagen (CPH)</li>
+        <li>Oslo (OSL) ➔ London Heathrow (LHR)</li>
+        <li>Copenhagen (CPH) ➔ Paris (CDG)</li>
+        <li>Copenhagen (CPH) ➔ Amsterdam (AMS)</li>
+        <li>Copenhagen (CPH) ➔ London Heathrow (LHR)</li>
+        <li>Copenhagen (CPH) ➔ Berlin (BER)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Swiss International Air Lines - A320neo Routes -->
+  <div class="dropdown">
+    <button>Swiss International Air Lines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Zurich (ZRH) ➔ London Heathrow (LHR)</li>
+        <li>Zurich (ZRH) ➔ Paris (CDG)</li>
+        <li>Zurich (ZRH) ➔ Frankfurt (FRA)</li>
+        <li>Zurich (ZRH) ➔ Munich (MUC)</li>
+        <li>Zurich (ZRH) ➔ Vienna (VIE)</li>
+        <li>Zurich (ZRH) ➔ Berlin (BER)</li>
+        <li>Zurich (ZRH) ➔ Brussels (BRU)</li>
+        <li>Zurich (ZRH) ➔ Amsterdam (AMS)</li>
+        <li>Zurich (ZRH) ➔ Madrid (MAD)</li>
+        <li>Zurich (ZRH) ➔ Barcelona (BCN)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- TAP Air Portugal - A320neo Routes -->
+  <div class="dropdown">
+    <button>TAP Air Portugal - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Lisbon (LIS) ➔ London Heathrow (LHR)</li>
+        <li>Lisbon (LIS) ➔ Paris (ORY)</li>
+        <li>Lisbon (LIS) ➔ Amsterdam (AMS)</li>
+        <li>Lisbon (LIS) ➔ Barcelona (BCN)</li>
+        <li>Lisbon (LIS) ➔ Madrid (MAD)</li>
+        <li>Lisbon (LIS) ➔ Frankfurt (FRA)</li>
+        <li>Lisbon (LIS) ➔ Zurich (ZRH)</li>
+        <li>Lisbon (LIS) ➔ Milan (MXP)</li>
+        <li>Lisbon (LIS) ➔ Rome (FCO)</li>
+        <li>Lisbon (LIS) ➔ Brussels (BRU)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Turkish Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>Turkish Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Istanbul (IST) ➔ London Heathrow (LHR)</li>
+        <li>Istanbul (IST) ➔ Paris (CDG)</li>
+        <li>Istanbul (IST) ➔ Frankfurt (FRA)</li>
+        <li>Istanbul (IST) ➔ Berlin (BER)</li>
+        <li>Istanbul (IST) ➔ Vienna (VIE)</li>
+        <li>Istanbul (IST) ➔ Amsterdam (AMS)</li>
+        <li>Istanbul (IST) ➔ Brussels (BRU)</li>
+        <li>Istanbul (IST) ➔ Zurich (ZRH)</li>
+        <li>Istanbul (IST) ➔ Madrid (MAD)</li>
+        <li>Istanbul (IST) ➔ Rome (FCO)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Vueling Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>Vueling Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Barcelona (BCN) ➔ London Gatwick (LGW)</li>
+        <li>Barcelona (BCN) ➔ Paris Orly (ORY)</li>
+        <li>Barcelona (BCN) ➔ Rome (FCO)</li>
+        <li>Barcelona (BCN) ➔ Amsterdam (AMS)</li>
+        <li>Barcelona (BCN) ➔ Brussels (BRU)</li>
+        <li>Barcelona (BCN) ➔ Berlin (BER)</li>
+        <li>Barcelona (BCN) ➔ Zurich (ZRH)</li>
+        <li>Barcelona (BCN) ➔ Lisbon (LIS)</li>
+        <li>Barcelona (BCN) ➔ Munich (MUC)</li>
+        <li>Barcelona (BCN) ➔ Frankfurt (FRA)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Wizz Air - A320neo Routes -->
+  <div class="dropdown">
+    <button>Wizz Air - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Budapest (BUD) ➔ London Luton (LTN)</li>
+        <li>Budapest (BUD) ➔ Paris Beauvais (BVA)</li>
+        <li>Budapest (BUD) ➔ Brussels Charleroi (CRL)</li>
+        <li>Budapest (BUD) ➔ Eindhoven (EIN)</li>
+        <li>Budapest (BUD) ➔ Berlin (BER)</li>
+        <li>Budapest (BUD) ➔ Madrid (MAD)</li>
+        <li>Budapest (BUD) ➔ Rome (FCO)</li>
+        <li>Budapest (BUD) ➔ Barcelona (BCN)</li>
+        <li>Budapest (BUD) ➔ Milan Malpensa (MXP)</li>
+        <li>Budapest (BUD) ➔ Athens (ATH)</li>
+      </ul>
+    </div>
+  </div>
+   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  
+
+    <h1>North America</h1>
+<div class="dropdown">
+  <button>American Airlines - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Dallas (DFW) ➔ Chicago (ORD)</li>
+      <li>Dallas (DFW) ➔ New York (JFK)</li>
+      <li>Dallas (DFW) ➔ Los Angeles (LAX)</li>
+      <li>Dallas (DFW) ➔ Miami (MIA)</li>
+      <li>Boston (BOS) ➔ Dallas (DFW)</li>
+      <li>Charlotte (CLT) ➔ Miami (MIA)</li>
+      <li>Chicago (ORD) ➔ Boston (BOS)</li>
+      <li>Chicago (ORD) ➔ Los Angeles (LAX)</li>
+      <li>New York (JFK) ➔ Charlotte (CLT)</li>
+      <li>New York (JFK) ➔ Washington D.C. (DCA)</li>
+      <li>New York (JFK) ➔ Dallas (DFW)</li>
+      <li>Los Angeles (LAX) ➔ Miami (MIA)</li>
+      <li>Los Angeles (LAX) ➔ Chicago (ORD)</li>
+      <li>Miami (MIA) ➔ Dallas (DFW)</li>
+      <li>Miami (MIA) ➔ New York (JFK)</li>
+      <li>Washington D.C. (DCA) ➔ New York (JFK)</li>
+      <li>Washington D.C. (DCA) ➔ Charlotte (CLT)</li>
+      <li>Dallas (DFW) ➔ Houston (IAH)</li>
+      <li>New York (JFK) ➔ Philadelphia (PHL)</li>
+      <li>Chicago (ORD) ➔ Phoenix (PHX)</li>
+      <li>Los Angeles (LAX) ➔ Phoenix (PHX)</li>
+      <li>Boston (BOS) ➔ New York (JFK)</li>
+      <li>New York (JFK) ➔ Charlotte (CLT)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button>JetBlue Airways - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Boston (BOS) ➔ New York (JFK)</li>
+      <li>Boston (BOS) ➔ Orlando (MCO)</li>
+      <li>New York (JFK) ➔ San Francisco (SFO)</li>
+      <li>New York (JFK) ➔ Los Angeles (LAX)</li>
+      <li>Boston (BOS) ➔ Fort Lauderdale (FLL)</li>
+      <li>Orlando (MCO) ➔ New York (JFK)</li>
+      <li>Boston (BOS) ➔ Tampa (TPA)</li>
+      <li>New York (JFK) ➔ Miami (MIA)</li>
+      <li>New York (JFK) ➔ Portland (PWM)</li>
+      <li>Fort Lauderdale (FLL) ➔ New York (JFK)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button>Spirit Airlines - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Fort Lauderdale (FLL) ➔ New York (LGA)</li>
+      <li>Fort Lauderdale (FLL) ➔ Orlando (MCO)</li>
+      <li>Las Vegas (LAS) ➔ Los Angeles (LAX)</li>
+      <li>Las Vegas (LAS) ➔ Miami (MIA)</li>
+      <li>Fort Lauderdale (FLL) ➔ Chicago (ORD)</li>
+      <li>Chicago (ORD) ➔ Orlando (MCO)</li>
+      <li>Dallas (DFW) ➔ Miami (MIA)</li>
+      <li>Detroit (DTW) ➔ Fort Lauderdale (FLL)</li>
+      <li>New York (LGA) ➔ Fort Lauderdale (FLL)</li>
+      <li>Las Vegas (LAS) ➔ Chicago (ORD)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button>Frontier Airlines - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Denver (DEN) ➔ Las Vegas (LAS)</li>
+      <li>Denver (DEN) ➔ Orlando (MCO)</li>
+      <li>Orlando (MCO) ➔ Chicago (ORD)</li>
+      <li>Las Vegas (LAS) ➔ Denver (DEN)</li>
+      <li>Denver (DEN) ➔ Tampa (TPA)</li>
+      <li>Chicago (ORD) ➔ Las Vegas (LAS)</li>
+      <li>Las Vegas (LAS) ➔ Orlando (MCO)</li>
+      <li>Denver (DEN) ➔ Phoenix (PHX)</li>
+      <li>Orlando (MCO) ➔ Denver (DEN)</li>
+      <li>Tampa (TPA) ➔ Denver (DEN)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button>Alaska Airlines - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Seattle (SEA) ➔ San Francisco (SFO)</li>
+      <li>Seattle (SEA) ➔ Portland (PDX)</li>
+      <li>San Francisco (SFO) ➔ Los Angeles (LAX)</li>
+      <li>Seattle (SEA) ➔ Los Angeles (LAX)</li>
+      <li>Portland (PDX) ➔ San Francisco (SFO)</li>
+      <li>Seattle (SEA) ➔ Anchorage (ANC)</li>
+      <li>Portland (PDX) ➔ Seattle (SEA)</li>
+      <li>San Francisco (SFO) ➔ Seattle (SEA)</li>
+      <li>San Diego (SAN) ➔ Seattle (SEA)</li>
+      <li>Anchorage (ANC) ➔ Seattle (SEA)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button>Delta Air Lines - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Atlanta (ATL) ➔ Orlando (MCO)</li>
+      <li>Atlanta (ATL) ➔ New York (JFK)</li>
+      <li>New York (JFK) ➔ Atlanta (ATL)</li>
+      <li>Chicago (ORD) ➔ Atlanta (ATL)</li>
+      <li>Chicago (ORD) ➔ New York (JFK)</li>
+      <li>Boston (BOS) ➔ New York (JFK)</li>
+      <li>Boston (BOS) ➔ Atlanta (ATL)</li>
+      <li>Detroit (DTW) ➔ New York (JFK)</li>
+      <li>Miami (MIA) ➔ Atlanta (ATL)</li>
+      <li>Los Angeles (LAX) ➔ Atlanta (ATL)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button>United Airlines - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Chicago (ORD) ➔ Newark (EWR)</li>
+      <li>Chicago (ORD) ➔ Houston (IAH)</li>
+      <li>Chicago (ORD) ➔ San Francisco (SFO)</li>
+      <li>Chicago (ORD) ➔ Los Angeles (LAX)</li>
+      <li>Newark (EWR) ➔ Chicago (ORD)</li>
+      <li>Newark (EWR) ➔ Washington D.C. (DCA)</li>
+      <li>San Francisco (SFO) ➔ Chicago (ORD)</li>
+      <li>Los Angeles (LAX) ➔ Chicago (ORD)</li>
+      <li>Houston (IAH) ➔ Chicago (ORD)</li>
+      <li>Washington D.C. (DCA) ➔ Newark (EWR)</li>
+    </ul>
+  </div>
+</div>
+
+   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <h1>Oceania</h1>
+ <!-- Air New Zealand A320neo Routes -->
+ <div class="dropdown">
+    <button>Air New Zealand - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Auckland (AKL) ➔ Wellington (WLG)</li>
+        <li>Christchurch (CHC) ➔ Auckland (AKL)</li>
+        <li>Wellington (WLG) ➔ Christchurch (CHC)</li>
+        <li>Auckland (AKL) ➔ Sydney (SYD)</li>
+        <li>Auckland (AKL) ➔ Melbourne (MEL)</li>
+        <li>Wellington (WLG) ➔ Auckland (AKL)</li>
+        <li>Auckland (AKL) ➔ Queenstown (ZQN)</li>
+        <li>Auckland (AKL) ➔ Brisbane (BNE)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Air Niugini A320neo Routes -->
+  <div class="dropdown">
+    <button>Air Niugini - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Port Moresby (POM) ➔ Lae (LAE)</li>
+        <li>Port Moresby (POM) ➔ Madang (MAG)</li>
+        <li>Port Moresby (POM) ➔ Mount Hagen (HGU)</li>
+        <li>Port Moresby (POM) ➔ Sydney (SYD)</li>
+        <li>Port Moresby (POM) ➔ Brisbane (BNE)</li>
+        <li>Port Moresby (POM) ➔ Singapore (SIN)</li>
+        <li>Port Moresby (POM) ➔ Cairns (CNS)</li>
+        <li>Lae (LAE) ➔ Port Moresby (POM)</li>
+        <li>Mount Hagen (HGU) ➔ Port Moresby (POM)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Alliance Airlines A320neo Routes -->
+  <div class="dropdown">
+    <button>Alliance Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Brisbane (BNE) ➔ Longreach (LRE)</li>
+        <li>Brisbane (BNE) ➔ Townsville (TSV)</li>
+        <li>Brisbane (BNE) ➔ Mackay (MKY)</li>
+        <li>Cairns (CNS) ➔ Weipa (WEI)</li>
+        <li>Townsville (TSV) ➔ Cairns (CNS)</li>
+        <li>Brisbane (BNE) ➔ Mount Isa (ISA)</li>
+        <li>Brisbane (BNE) ➔ Charleville (CTL)</li>
+        <li>Brisbane (BNE) ➔ Rockhampton (ROK)</li>
+        <li>Cairns (CNS) ➔ Brisbane (BNE)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Antarctica Airways A320neo Routes -->
+<div class="dropdown">
+    <button>Antarctica Airways - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Hobart (HBA) ➔ Christchurch (CHC)</li>
+        <li>Hobart (HBA) ➔ Auckland (AKL)</li>
+        <li>Hobart (HBA) ➔ Melbourne (MEL)</li>
+        <li>Hobart (HBA) ➔ Sydney (SYD)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Australian Airlines (part of Qantas) A320neo Routes -->
+  <div class="dropdown">
+    <button>Australian Airlines (part of Qantas) - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Melbourne (MEL) ➔ Sydney (SYD)</li>
+        <li>Melbourne (MEL) ➔ Brisbane (BNE)</li>
+        <li>Brisbane (BNE) ➔ Sydney (SYD)</li>
+        <li>Brisbane (BNE) ➔ Cairns (CNS)</li>
+        <li>Brisbane (BNE) ➔ Perth (PER)</li>
+        <li>Sydney (SYD) ➔ Adelaide (ADL)</li>
+        <li>Sydney (SYD) ➔ Hobart (HBA)</li>
+        <li>Melbourne (MEL) ➔ Adelaide (ADL)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Australia's FlyPelican A320neo Routes -->
+  <div class="dropdown">
+    <button>Australia's FlyPelican - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Newcastle (NTL) ➔ Sydney (SYD)</li>
+        <li>Newcastle (NTL) ➔ Brisbane (BNE)</li>
+        <li>Newcastle (NTL) ➔ Melbourne (MEL)</li>
+        <li>Newcastle (NTL) ➔ Canberra (CBR)</li>
+        <li>Newcastle (NTL) ➔ Gold Coast (OOL)</li>
+        <li>Newcastle (NTL) ➔ Adelaide (ADL)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Citilink Australia A320neo Routes -->
+<div class="dropdown">
+    <button>Citilink Australia - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Melbourne (MEL) ➔ Sydney (SYD)</li>
+        <li>Melbourne (MEL) ➔ Brisbane (BNE)</li>
+        <li>Brisbane (BNE) ➔ Sydney (SYD)</li>
+        <li>Brisbane (BNE) ➔ Melbourne (MEL)</li>
+        <li>Sydney (SYD) ➔ Perth (PER)</li>
+        <li>Brisbane (BNE) ➔ Perth (PER)</li>
+        <li>Sydney (SYD) ➔ Cairns (CNS)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Fiji Airways A320neo Routes -->
+  <div class="dropdown">
+    <button>Fiji Airways - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Suva (SUV) ➔ Auckland (AKL)</li>
+        <li>Suva (SUV) ➔ Sydney (SYD)</li>
+        <li>Suva (SUV) ➔ Melbourne (MEL)</li>
+        <li>Suva (SUV) ➔ Brisbane (BNE)</li>
+        <li>Nadi (NAN) ➔ Auckland (AKL)</li>
+        <li>Nadi (NAN) ➔ Sydney (SYD)</li>
+        <li>Nadi (NAN) ➔ Melbourne (MEL)</li>
+        <li>Nadi (NAN) ➔ Brisbane (BNE)</li>
+        <li>Nadi (NAN) ➔ Los Angeles (LAX)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Jetstar Airways A320neo Routes -->
+<div class="dropdown">
+    <button>Jetstar Airways - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Melbourne (MEL) ➔ Sydney (SYD)</li>
+        <li>Melbourne (MEL) ➔ Brisbane (BNE)</li>
+        <li>Brisbane (BNE) ➔ Sydney (SYD)</li>
+        <li>Brisbane (BNE) ➔ Melbourne (MEL)</li>
+        <li>Sydney (SYD) ➔ Cairns (CNS)</li>
+        <li>Melbourne (MEL) ➔ Cairns (CNS)</li>
+        <li>Gold Coast (OOL) ➔ Sydney (SYD)</li>
+        <li>Gold Coast (OOL) ➔ Melbourne (MEL)</li>
+        <li>Brisbane (BNE) ➔ Gold Coast (OOL)</li>
+        <li>Sydney (SYD) ➔ Adelaide (ADL)</li>
+        <li>Melbourne (MEL) ➔ Adelaide (ADL)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Qantas Airways A320neo Routes -->
+  <div class="dropdown">
+    <button>Qantas Airways - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Melbourne (MEL) ➔ Sydney (SYD)</li>
+        <li>Melbourne (MEL) ➔ Brisbane (BNE)</li>
+        <li>Brisbane (BNE) ➔ Sydney (SYD)</li>
+        <li>Brisbane (BNE) ➔ Melbourne (MEL)</li>
+        <li>Sydney (SYD) ➔ Adelaide (ADL)</li>
+        <li>Sydney (SYD) ➔ Hobart (HBA)</li>
+        <li>Sydney (SYD) ➔ Cairns (CNS)</li>
+        <li>Melbourne (MEL) ➔ Hobart (HBA)</li>
+        <li>Melbourne (MEL) ➔ Adelaide (ADL)</li>
+        <li>Perth (PER) ➔ Melbourne (MEL)</li>
+        <li>Perth (PER) ➔ Sydney (SYD)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Regional Express Airlines (REX) A320neo Routes -->
+  <div class="dropdown">
+    <button>Regional Express Airlines (REX) - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Sydney (SYD) ➔ Albury (ABX)</li>
+        <li>Sydney (SYD) ➔ Wagga Wagga (WGA)</li>
+        <li>Melbourne (MEL) ➔ Albury (ABX)</li>
+        <li>Melbourne (MEL) ➔ Wagga Wagga (WGA)</li>
+        <li>Sydney (SYD) ➔ Coffs Harbour (CFS)</li>
+        <li>Melbourne (MEL) ➔ Coffs Harbour (CFS)</li>
+        <li>Adelaide (ADL) ➔ Mount Gambier (MGB)</li>
+        <li>Brisbane (BNE) ➔ Coffs Harbour (CFS)</li>
+        <li>Sydney (SYD) ➔ Port Macquarie (PQQ)</li>
+        <li>Melbourne (MEL) ➔ Port Macquarie (PQQ)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Solomon Airlines A320neo Routes -->
+<div class="dropdown">
+  <button>Solomon Airlines - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Honiara (HIR) ➔ Brisbane (BNE)</li>
+      <li>Honiara (HIR) ➔ Sydney (SYD)</li>
+      <li>Honiara (HIR) ➔ Nadi (NAN)</li>
+      <li>Honiara (HIR) ➔ Port Vila (VLI)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Sunshine Coast Air A320neo Routes -->
+<div class="dropdown">
+  <button>Sunshine Coast Air - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Sunshine Coast (MCY) ➔ Sydney (SYD)</li>
+      <li>Sunshine Coast (MCY) ➔ Melbourne (MEL)</li>
+      <li>Sunshine Coast (MCY) ➔ Brisbane (BNE)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Tigerair Australia (now part of Virgin Australia) A320neo Routes -->
+<div class="dropdown">
+  <button>Tigerair Australia (now part of Virgin Australia) - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Melbourne (MEL) ➔ Sydney (SYD)</li>
+      <li>Melbourne (MEL) ➔ Brisbane (BNE)</li>
+      <li>Brisbane (BNE) ➔ Sydney (SYD)</li>
+      <li>Brisbane (BNE) ➔ Melbourne (MEL)</li>
+      <li>Perth (PER) ➔ Melbourne (MEL)</li>
+      <li>Perth (PER) ➔ Sydney (SYD)</li>
+      <li>Adelaide (ADL) ➔ Melbourne (MEL)</li>
+      <li>Adelaide (ADL) ➔ Sydney (SYD)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Virgin Australia A320neo Routes -->
+<div class="dropdown">
+  <button>Virgin Australia - A320neo</button>
+  <div class="dropdown-content">
+    <ul>
+      <li>Melbourne (MEL) ➔ Sydney (SYD)</li>
+      <li>Melbourne (MEL) ➔ Brisbane (BNE)</li>
+      <li>Brisbane (BNE) ➔ Sydney (SYD)</li>
+      <li>Brisbane (BNE) ➔ Melbourne (MEL)</li>
+      <li>Perth (PER) ➔ Melbourne (MEL)</li>
+      <li>Perth (PER) ➔ Sydney (SYD)</li>
+      <li>Adelaide (ADL) ➔ Melbourne (MEL)</li>
+      <li>Adelaide (ADL) ➔ Sydney (SYD)</li>
+      <li>Gold Coast (OOL) ➔ Sydney (SYD)</li>
+      <li>Gold Coast (OOL) ➔ Melbourne (MEL)</li>
+    </ul>
+  </div>
+</div>
+
+ <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+<h1>South America</h1>
+<!-- Avianca - A320neo Routes -->
+<div class="dropdown">
+    <button>Avianca - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Bogotá (BOG) ➔ Medellín (MDE)</li>
+        <li>Bogotá (BOG) ➔ Cali (CLO)</li>
+        <li>Bogotá (BOG) ➔ Cartagena (CTG)</li>
+        <li>Medellín (MDE) ➔ Bogotá (BOG)</li>
+        <li>Medellín (MDE) ➔ Cali (CLO)</li>
+        <li>Cali (CLO) ➔ Bogotá (BOG)</li>
+        <li>Cartagena (CTG) ➔ Bogotá (BOG)</li>
+        <li>Bogotá (BOG) ➔ Miami (MIA)</li>
+        <li>Medellín (MDE) ➔ Miami (MIA)</li>
+        <li>Cali (CLO) ➔ Miami (MIA)</li>
+        <li>San Salvador (SAL) ➔ Bogotá (BOG)</li>
+        <li>Lima (LIM) ➔ Bogotá (BOG)</li>
+        <li>Bogotá (BOG) ➔ New York (JFK)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- LATAM Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>LATAM Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Santiago (SCL) ➔ Buenos Aires (AEP)</li>
+        <li>Santiago (SCL) ➔ Lima (LIM)</li>
+        <li>Santiago (SCL) ➔ São Paulo (GRU)</li>
+        <li>Bogotá (BOG) ➔ Lima (LIM)</li>
+        <li>São Paulo (GRU) ➔ Santiago (SCL)</li>
+        <li>Lima (LIM) ➔ Santiago (SCL)</li>
+        <li>Bogotá (BOG) ➔ Buenos Aires (AEP)</li>
+        <li>São Paulo (GRU) ➔ Lima (LIM)</li>
+        <li>Santiago (SCL) ➔ São Paulo (GRU)</li>
+        <li>Buenos Aires (AEP) ➔ Lima (LIM)</li>
+        <li>Buenos Aires (AEP) ➔ Santiago (SCL)</li>
+        <li>São Paulo (GRU) ➔ Rio de Janeiro (GIG)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- GOL Linhas Aéreas - A320neo Routes -->
+  <div class="dropdown">
+    <button>GOL Linhas Aéreas - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>São Paulo (GRU) ➔ Rio de Janeiro (GIG)</li>
+        <li>São Paulo (GRU) ➔ Brasília (BSB)</li>
+        <li>São Paulo (GRU) ➔ Salvador (SSA)</li>
+        <li>Rio de Janeiro (GIG) ➔ São Paulo (GRU)</li>
+        <li>Rio de Janeiro (GIG) ➔ Porto Alegre (POA)</li>
+        <li>Brasília (BSB) ➔ São Paulo (GRU)</li>
+        <li>Salvador (SSA) ➔ São Paulo (GRU)</li>
+        <li>São Paulo (GRU) ➔ Fortaleza (FOR)</li>
+        <li>Fortaleza (FOR) ➔ Rio de Janeiro (GIG)</li>
+        <li>Rio de Janeiro (GIG) ➔ Recife (REC)</li>
+        <li>São Paulo (GRU) ➔ Recife (REC)</li>
+        <li>Brasília (BSB) ➔ Fortaleza (FOR)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Sky Airline - A320neo Routes -->
+  <div class="dropdown">
+    <button>Sky Airline - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>Santiago (SCL) ➔ Lima (LIM)</li>
+        <li>Santiago (SCL) ➔ Buenos Aires (AEP)</li>
+        <li>Santiago (SCL) ➔ Mendoza (MDZ)</li>
+        <li>La Serena (LSC) ➔ Santiago (SCL)</li>
+        <li>Antofagasta (ANF) ➔ Santiago (SCL)</li>
+        <li>Iquique (IQQ) ➔ Santiago (SCL)</li>
+        <li>Santiago (SCL) ➔ Asunción (ASU)</li>
+        <li>Puerto Montt (PMC) ➔ Santiago (SCL)</li>
+        <li>Santiago (SCL) ➔ Concepción (CCP)</li>
+        <li>Santiago (SCL) ➔ Arica (ARI)</li>
+        <li>Santiago (SCL) ➔ La Paz (LPB)</li>
+        <li>Santiago (SCL) ➔ Cordoba (COR)</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Azul Brazilian Airlines - A320neo Routes -->
+  <div class="dropdown">
+    <button>Azul Brazilian Airlines - A320neo</button>
+    <div class="dropdown-content">
+      <ul>
+        <li>São Paulo (GRU) ➔ Rio de Janeiro (GIG)</li>
+        <li>São Paulo (GRU) ➔ Porto Alegre (POA)</li>
+        <li>São Paulo (GRU) ➔ Belo Horizonte (CNF)</li>
+        <li>Rio de Janeiro (GIG) ➔ São Paulo (GRU)</li>
+        <li>Belo Horizonte (CNF) ➔ São Paulo (GRU)</li>
+        <li>Fortaleza (FOR) ➔ São Paulo (GRU)</li>
+        <li>Porto Alegre (POA) ➔ São Paulo (GRU)</li>
+        <li>Recife (REC) ➔ São Paulo (GRU)</li>
+        <li>São Paulo (GRU) ➔ Recife (REC)</li>
+        <li>Curitiba (CWB) ➔ São Paulo (GRU)</li>
+        <li>São Paulo (GRU) ➔ Salvador (SSA)</li>
+        <li>São Paulo (GRU) ➔ Belo Horizonte (CNF)</li>
+      </ul>
+    </div>
+  </div>
+  
+
+
+   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+       <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+  <script>
+    // Add event listener for button clicks to toggle the dropdown visibility
+    const dropdownButtons = document.querySelectorAll('.dropdown button');
+
+    dropdownButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const dropdownContent = this.nextElementSibling;
+        dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+
+    // Close dropdown if clicked outside
+    window.addEventListener('click', function(e) {
+      if (!e.target.matches('.dropdown button')) {
+        dropdownButtons.forEach(button => {
+          const dropdownContent = button.nextElementSibling;
+          if (dropdownContent.style.display === 'block') {
+            dropdownContent.style.display = 'none';
+          }
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
